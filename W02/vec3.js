@@ -60,27 +60,3 @@ function AreaOfTriangle(v0,v1,v2)
     var tmp3 = Math.pow(ax*by-ay*bx,2);
     return 0.5*Math.sqrt(tmp1+tmp2+tmp3);
 }
-
-/*
-//Constructor
-Vec3 = function(x,y,z)
-{
-    this.x = x;
-    this.y = y;
-    this.z = z;
-}
-
-// Add method
-Vec3.prototype.add = function( v )
-{
-    this.x += v.x;
-    this.y += v.y;
-    this.z += v.z;
-    return this;
-}
-// Sum method
-Vec3.prototype.sum = function()
-{
-    return this.x + this.y + this.z;
-}
-*/

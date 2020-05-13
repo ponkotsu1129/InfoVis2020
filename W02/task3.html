@@ -3,9 +3,12 @@
         <title>W02: Task 03</title>
     </head>
     <body>
+        <script>
+            document.write('Area of Triangle:');
+        </script>
         <input  type="button"
                 onclick="e()"
-                value="Area of Triangle"/>
+                value="Click Me"/>
         <script src = "vec3.js"></script>
         <script>
             var x0 = 5, y0 = 4, z0 = 8;
@@ -15,7 +18,6 @@
             var v1 = new Vec3(x1,y1,z1);
             var v2 = new Vec3(x2,y2,z2);
             var S = AreaOfTriangle(v0,v1,v2);
-            //document.write(S);
             function e(){document.write(S);}
         </script>
     </body>
