@@ -19,6 +19,7 @@ function main2()
 
     var geometry = new THREE.BoxGeometry( 1, 1, 1 );
     var material = new THREE.MeshLambertMaterial( { color: 0xffffff } );
+    
     var cube = new THREE.Mesh( geometry, material );
     scene.add( cube );
 
